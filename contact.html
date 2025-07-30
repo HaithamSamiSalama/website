@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>مجتمع هيثم سلامة - تواصل معي</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">
+    <img src="https://www.haithamsalama.com/assets/images/banner.jpg" alt="Haitham Salama Logo" />
+    <span>هيثم سلامة</span>
+  </div>
+  <ul>
+    <li><a href="index.html">الرئيسية</a></li>
+    <li><a href="my-videos.html">فيديوهات</a></li>
+    <li><a href="programs.html">التحميلات</a></li>
+    <li><a href="articles.html">المقالات</a></li>
+    <li><a href="contact.html" class="active">تواصل معي</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>تواصل معي في مجتمع هيثم سلامة</h1>
+</header>
+
+<main>
+  <section class="intro">
+    تقدر تتواصل معي عبر وسائل التواصل التالية، أو تملأ النموذج لإرسال رسالة مباشرة.
+  </section>
+
+  <section>
+    <h2><i class="fas fa-envelope"></i> وسائل التواصل</h2>
+    <ul class="video-list">
+      <li><strong>البريد الإلكتروني:</strong> <a href="mailto:haithamsalama@example.com">haithamsalama@example.com</a></li>
+      <li><strong>تويتر:</strong> <a href="https://twitter.com/haithamsalama" target="_blank" rel="noopener noreferrer">@haithamsalama</a></li>
+      <li><strong>إنستجرام:</strong> <a href="https://instagram.com/haithamsalama" target="_blank" rel="noopener noreferrer">@haithamsalama</a></li>
+      <li><strong>يوتيوب:</strong> <a href="https://www.youtube.com/@haithamsalama" target="_blank" rel="noopener noreferrer">قناة هيثم سلامة</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><i class="fas fa-comments"></i> أرسل رسالة</h2>
+    <form action="mailto:haithamsalama@example.com" method="POST" enctype="text/plain" style="max-width:600px; margin:auto;">
+      <label for="name">الاسم:</label><br />
+      <input type="text" id="name" name="name" required style="width:100%; padding:8px; margin-bottom:12px;" /><br />
+      
+      <label for="email">البريد الإلكتروني:</label><br />
+      <input type="email" id="email" name="email" required style="width:100%; padding:8px; margin-bottom:12px;" /><br />
+      
+      <label for="message">الرسالة:</label><br />
+      <textarea id="message" name="message" required rows="5" style="width:100%; padding:8px; margin-bottom:12px;"></textarea><br />
+      
+      <button type="submit" style="background:#8B0000; color:#fff; border:none; padding:12px 25px; border-radius:30px; font-weight:700; cursor:pointer; transition: background 0.3s ease;">
+        إرسال
+      </button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 مجتمع هيثم سلامة
+</footer>
+</body>
+</html>
